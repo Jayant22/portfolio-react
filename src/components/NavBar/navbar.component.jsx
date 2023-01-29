@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 const Navbar = () => {
   const navItems = (
     <Fragment>
-      <li>
+      <li className='hover:text-red-600 hover:text-xl duration-200'>
         <Link
           activeClass='active'
           to='about'
@@ -18,7 +18,7 @@ const Navbar = () => {
           About Me
         </Link>
       </li>
-      <li>
+      <li className='hover:text-red-600 hover:text-xl duration-200'>
         <Link
           activeClass='active'
           to='service'
@@ -31,7 +31,20 @@ const Navbar = () => {
           Service
         </Link>
       </li>
-      <li>
+      <li className='hover:text-red-600 hover:text-xl duration-200'>
+        <Link
+          activeClass='active'
+          to='experience'
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          delay={100}
+        >
+          Experience
+        </Link>
+      </li>
+      <li className='hover:text-red-600 hover:text-xl duration-200'>
         <Link
           activeClass='active'
           to='portfolio'
@@ -44,7 +57,7 @@ const Navbar = () => {
           Portfolio
         </Link>
       </li>
-      <li>
+      <li className='hover:text-red-600 hover:text-xl duration-200'>
         <Link
           activeClass='active'
           to='contact'
@@ -89,7 +102,7 @@ const Navbar = () => {
         </div>
         <a
           href='/'
-          className='btn btn-ghost font-normal normal-case text-4xl text-red-500 font-[GodFather]'
+          className='btn btn-ghost font-normal normal-case text-4xl text-red-500 font-[GodFather] hover:text-red-600 hover:text-5xl hover:border-0 duration-200'
         >
           Jayant_Kodam
         </a>

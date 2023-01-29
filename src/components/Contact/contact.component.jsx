@@ -3,7 +3,7 @@ const Contact = () => {
     <div id='contact'>
       <div className='w-9/12 flex flex-col items-center justify-center m-auto py-10'>
         <div>
-          <h1 className='text-2xl text-red-600 font-[monospace] font-bold text-center mt-20'>Contact Me</h1>
+          <h1 className='text-6xl text-red-600 font-[GodFather] font-light text-center mt-20'>Contact Me</h1>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 w-full'>
           <div className='form-control'>

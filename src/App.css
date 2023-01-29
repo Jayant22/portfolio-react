@@ -2,3 +2,7 @@
   font-family: GodFather;
   src: url(./assets/Fonts/TheGodfather-v2.ttf);
 }
+@font-face {
+  font-family: Shadows;
+  src: url(./assets/Fonts/ShadowsIntoLight-Regular.ttf);
+}

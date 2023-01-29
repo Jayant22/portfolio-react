@@ -32,8 +32,10 @@ const Experience = () => {
     },
   ];
   return (
-    <div>
-      <h1 className='text-2xl text-red-600 font-[monospace] font-bold text-center mt-20'>Experience</h1>
+    <div id='experience'>
+      <h1 className='text-6xl text-red-600 font-[GodFather] font-light text-center mt-20 hover:text-red-600 hover:text-8xl duration-200'>
+        Experience
+      </h1>
       <div className='grid grid-cols-1 gap-5 py-3'>
         {experiences.map((experience, i) => (
           <ExperienceCard key={i} experience={experience} />

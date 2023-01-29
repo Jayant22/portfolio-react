@@ -37,7 +37,9 @@ const Services = () => {
 
   return (
     <div id='service'>
-      <h1 className='text-2xl text-red-600 font-[monospace] font-bold text-center mt-20'>Services</h1>
+      <h1 className='text-6xl text-red-600 font-[GodFather] font-light text-center mt-20 hover:text-red-600 hover:text-8xl duration-200'>
+        Services
+      </h1>
       <div className='lg:flex lg:items-center lg:justify-between lg:py-10'>
         <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-5 py-3'>
           {services.map((service, i) => (

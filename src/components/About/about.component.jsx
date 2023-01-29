@@ -12,7 +12,7 @@ const About = () => {
             className='aboutImg w-3/4 lg:w-1/2 rounded-lg shadow-2xl'
           />
           <div className='mr-10'>
-            <span className='text-5xl text-red-600 font-[GodFather]'>
+            <span className='text-5xl text-red-600 font-[GodFather] hover:text-red-600 hover:text-7xl duration-200'>
               About Me
             </span>
             <br />

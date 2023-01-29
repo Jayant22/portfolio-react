@@ -11,7 +11,7 @@ const ExperienceCard = ({ experience }) => {
               <i>{icon}</i>
             </figure>
             <div className='card-body'>
-              <h1 className='card-title text-2xl'>{companyName}</h1>
+              <h1 className='card-title text-6xl font-[GodFather] font-extralight'>{companyName}</h1>
               <h2 className='card-title text-lg'>{jobTitle}</h2>
               <h2 className='card-title text-lg'>{duration}</h2>
               <div>
