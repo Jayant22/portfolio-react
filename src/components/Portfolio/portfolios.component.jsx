@@ -21,7 +21,7 @@ const Portfolios = () => {
       stack:
         'React.js, Scss, Firebase API, Context API, React Router',
       githubLink: 'https://github.com/Jayant22/portfolio-react',
-      liveLink: 'https://crown-ecommerce-app.pages.dev/',
+      liveLink: 'https://portfolio-react-mu-livid.vercel.app/',
     },
     {
       image: projectThree,
@@ -30,7 +30,7 @@ const Portfolios = () => {
       stack:
         'React.js, Scss, Firebase API, Context API, React Router',
       githubLink: 'https://github.com/Jayant22/eCommerce-App',
-      liveLink: 'https://crown-ecommerce-app.pages.dev/',
+      liveLink: 'https://e-commerce-app-gray.vercel.app/',
     },
   ];
 
