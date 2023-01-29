@@ -1,4 +1,6 @@
 import HeroImage from '../../assets/AboutMe/AboutMe.png';
+import Typewriter from 'typewriter-effect';
+
 import './hero.styles.scss';
 const Hero = () => {
   return (
@@ -13,7 +15,15 @@ const Hero = () => {
           <h1 className='md:text-9xl lg:text-9xl text-5xl font-[GodFather] '>
             {' '}
             Hello! <br></br> I am{' '}
-            <span className='text-red-600'>Jayant Kodam</span>
+            <span className='text-red-600'>
+              <Typewriter
+                options={{
+                  strings: ['Jayant Kodam', 'A Full Stack Web Developer'],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
           </h1>
           <br />
           <p className='ру-6 text-sm 1g:text-lg md:text-lg font-mono'>
