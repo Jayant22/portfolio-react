@@ -19,6 +19,7 @@
   },
   "plugins": ["react"],
   "rules": {
+    "no-unused-vars": ["warn", { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }],
     "space-before-function-paren": "off",
     "semi": [1, "always"],
     "comma-dangle": [

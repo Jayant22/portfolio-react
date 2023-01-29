@@ -1,0 +1,15 @@
+.portfolio-container {
+  padding: 30px 0px;
+  margin: 0 20px;
+  border-radius: 10px;
+  border: 1px solid red;
+  color: #1cfdff;
+  box-shadow: 10px 10px 10px #1cfdff;
+  transition: all 0.3s;
+}
+.portfolio-container:hover {
+  background-image: linear-gradient(to top right, #71392e, #093139);
+  box-shadow: 10px 10px 10px red;
+  color: #fff;
+  border: none;
+}
