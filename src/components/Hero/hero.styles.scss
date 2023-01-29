@@ -1,0 +1,9 @@
+.heroImg{
+   box-shadow: 10px 10px 10px #1cfdff;
+   transition: all 0.3s;
+}
+
+.heroImg:hover {
+  box-shadow: 10px 10px 10px red;
+  border: none;
+}
