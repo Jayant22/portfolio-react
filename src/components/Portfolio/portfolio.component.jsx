@@ -7,7 +7,7 @@ const Portfolio = ({ portfolio }) => {
     <div className='portfolio-container flex items-center justify-center'>
       <div className='card w-11/12 lg:w-98 bg-base-100 shadow-xl glass'>
         <figure>
-          <img src={image} alt='PorjectOne' className='w-auto' />
+          <img src={image} alt='Porject_image' className='w-auto ' />
         </figure>
         <div className='card-body'>
           <h2 className='card-title'>{title}</h2>
