@@ -72,11 +72,11 @@ const Portfolios = () => {
 
   return (
     <div id='portfolio'>
-      <h1 className='text-6xl text-red-600 font-[GodFather] font-light text-center mt-20 hover:text-red-600 hover:text-8xl duration-200'>
+      <h1 className='mt-20 text-center font-[GodFather] text-6xl font-light text-red-600 duration-200 hover:text-8xl hover:text-red-600'>
         Portfolios
       </h1>
       <div className='lg:flex lg:items-center lg:justify-between lg:py-10'>
-        <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-5 py-3'>
+        <div className='grid grid-cols-1 gap-5 py-3 md:grid-cols-2 lg:grid-cols-3'>
           {portfolios.map((portfolio, i) => (
             <Portfolio key={i} portfolio={portfolio} />
           ))}

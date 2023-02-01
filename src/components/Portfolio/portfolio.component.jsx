@@ -5,9 +5,9 @@ const Portfolio = ({ portfolio }) => {
     portfolio;
   return (
     <div className='portfolio-container flex items-center justify-center'>
-      <div className='card w-11/12 lg:w-98 bg-base-100 shadow-xl glass'>
+      <div className='lg:w-98 card glass w-11/12 bg-base-100 shadow-xl'>
         <figure>
-          <img src={image} alt='Porject_image' className='w-auto ' />
+          <img src={image} alt='Porject_image' className='w-auto' />
         </figure>
         <div className='card-body'>
           <h2 className='card-title'>{title}</h2>
@@ -16,7 +16,7 @@ const Portfolio = ({ portfolio }) => {
             <h3>Tech Stack: </h3>
             {stack.split(',').map((str, i) => (
               <div
-                className='badge badge-info mx-2 font-[monospace] font-bold lg:text-lg md:text-lsm sm:text-sm'
+                className='badge-info badge mx-2 font-[monospace] font-bold sm:text-sm md:text-sm lg:text-lg'
                 key={i}
               >
                 {str}
@@ -25,13 +25,13 @@ const Portfolio = ({ portfolio }) => {
           </div>
           <br />
           <div className='card-actions justify-end'>
-            <a href={githubLink} className='btn btn-accent'>
-              <span className='text-xl sm:text-lg text-red-600 font-[Shadows] font-bold'>
+            <a href={githubLink} className='btn-accent btn'>
+              <span className='font-[Shadows] text-xl font-bold text-red-600 sm:text-lg'>
                 GtiHub Link
               </span>
             </a>
-            <a href={liveLink} className='btn btn-accent'>
-              <span className='text-lg text-red-600 font-[Shadows] font-bold'>
+            <a href={liveLink} className='btn-accent btn'>
+              <span className='font-[Shadows] text-lg font-bold text-red-600'>
                 Live Link
               </span>
             </a>
