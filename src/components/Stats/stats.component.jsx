@@ -28,11 +28,11 @@ const Stats = () => {
           <div className='stat-value'>1000</div>
           <div className='stat-desc'>From March 2020 to Present</div>
         </div>
-        <div className='stat place-items-center'>
+        {/* <div className='stat place-items-center'>
           <div className='stat-title'>SEO Optimized</div>
           <div className='stat-value'>60</div>
           <div className='stat-desc'>↗︎ 10 (20%)</div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
